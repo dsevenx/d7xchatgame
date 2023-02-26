@@ -11,7 +11,7 @@ export default function CalculateWinner(squares) {
   ];
   for (let i = 0; i < lines.length; i++) {
     const [a, b, c] = lines[i];
-    console.log(a, squares);
+    // console.log(a, squares);
     if (
       (squares[a] === "X" || squares[a] === "O") &&
       squares[a] === squares[b] &&
